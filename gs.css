@@ -25,6 +25,36 @@ div.VILLAIN{
 }div.TRAGEDIAN{
     font-size: smaller;
     font-family: 'Times New Roman', Times, serif;
-    color:lightcoral;
+    color:lightcora;
 
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:60%
+}
+td{
+    border:2px solid darkgreen;
+    text-align:left;
+    padding:7px;
+    color:darkblue;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 100px;
+
+}
+th{
+    border:2px solid darkgreen;
+    text-align:left;
+    padding:7px;
+    color:darkblue;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 100px;
+
+}
+tr:nth-child(even){
+    background-color:antiquewhite;
 }
