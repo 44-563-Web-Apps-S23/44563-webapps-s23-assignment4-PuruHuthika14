@@ -1,0 +1,33 @@
+speech{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+direction:hover{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: aqua;
+}
+div.COMEDIAN{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:red;
+}
+div.VILLAIN{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color:blue;
+}
+div.OLDMAN{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:brown;
+
+}
+div.TRAGEDIAN{
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+    color:darkgoldenrod;
+
+}
