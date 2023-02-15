@@ -7,25 +7,55 @@ speech{
     font-family: 'Courier New', Courier, monospace;
     color: black;
     background-color: aqua;
+
 }
 div.COMEDIAN{
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:red;
+    color:green;
+    
+}
+div.COMEDIAN:hover{
+    text-shadow: 3px 2px 1px red ;border-style: initial;
+    padding:8px;
+    background-color: aqua;
 }
 div.VILLAIN{
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
-    color:chartreuse;
-}div.OLDMAN{
-    font-size: small;
+    color:brown;
+    
+}
+div.VILLAIN:hover{
+    text-shadow: 3px 2px 1px blue ;border-style: initial;
+    padding:8px;
+    background-color: aqua;
+}
+div.OLDMAN{
+    font-size: medium;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:blue;
+    
 
-}div.TRAGEDIAN{
-    font-size: smaller;
+}
+div.OLDMAN:hover{
+    text-shadow: 3px 2px 1px red ;border-style: initial;
+    padding:8px;
+    background-color: aqua;
+}
+div.TRAGEDIAN:hover{
+    text-shadow: 3px 2px 1px blue ;border-style: initial;
+    padding:8px;
+    background-color: aqua;
+}
+
+
+
+div.TRAGEDIAN{
+    font-size: medium;
     font-family: 'Times New Roman', Times, serif;
-    color:lightcora;
+    color:coral;
+    
 
 }
 table{
@@ -58,3 +88,8 @@ th{
 tr:nth-child(even){
     background-color:antiquewhite;
 }
+hut{
+    display:block;
+    padding:8px;
+}
+
