@@ -92,4 +92,25 @@ hut{
     display:block;
     padding:8px;
 }
+ul{
+    list-style-type: circle;
+    margin: 1;
 
+    padding: 1;
+    overflow: hidden;
+    background-color: aqua;
+}
+l{
+    float: none;
+}
+l a{
+    display:contents;
+    color: aliceblue;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+l a:hover{
+    background-color: antiquewhite;
+}
