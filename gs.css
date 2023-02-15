@@ -1,57 +1,68 @@
-speech{
-    font-size: medium;
+.speech{
+    font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
-}direction:hover{
-    font-size: medium;
+}
+.direction{
+    font-size:medium;
     font-family: 'Courier New', Courier, monospace;
     color: black;
-    background-color: aqua;
+    background-color:aliceblue;
+}
+.direction:hover{
+    color:bisque;
+    background-color:burlywood;
 
 }
-div.COMEDIAN{
+.COMEDIAN{
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:green;
     
 }
-div.COMEDIAN:hover{
-    text-shadow: 3px 2px 1px red ;border-style: initial;
-    padding:8px;
-    background-color: aqua;
+.COMEDIAN:hover{
+    text-shadow: 3px 3px 3px lightcoral ;
+    border:0.5px dashed olive;
+    color:blueviolet;
+    filter:blur(0.2px);
 }
-div.VILLAIN{
+
+
+.VILLAIN{
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
     color:brown;
+
     
 }
-div.VILLAIN:hover{
-    text-shadow: 3px 2px 1px blue ;border-style: initial;
-    padding:8px;
-    background-color: aqua;
+.VILLAIN:hover{
+    text-shadow: 3px 3px 3px red ;
+    border:0.5px dashed lightcoral;
+    color:blue;
+    filter:blur(0.2px);
 }
-div.OLDMAN{
+.OLDMAN{
     font-size: medium;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:blue;
     
 
 }
-div.OLDMAN:hover{
-    text-shadow: 3px 2px 1px red ;border-style: initial;
-    padding:8px;
-    background-color: aqua;
+.OLDMAN:hover{
+    text-shadow: 3px 3px 3px lightpink ;
+    border:0.5px dashed lightcoral;
+    color:blueviolet;
+    filter:blur(0.2px);
 }
-div.TRAGEDIAN:hover{
-    text-shadow: 3px 2px 1px blue ;border-style: initial;
-    padding:8px;
-    background-color: aqua;
+.TRAGEDIAN:hover{
+    text-shadow: 3px 3px 3px lightskyblue ;
+    border:0.5px dashed olive;
+    color:chocolate;
+    filter:blur(0.2px);
 }
 
 
-
-div.TRAGEDIAN{
+.TRAGEDIAN{
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
     color:coral;
@@ -88,29 +99,31 @@ th{
 tr:nth-child(even){
     background-color:antiquewhite;
 }
-hut{
-    display:block;
-    padding:8px;
-}
-ul{
-    list-style-type: circle;
-    margin: 1;
 
-    padding: 1;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    background-color: aqua;
-}
-l{
-    float: none;
-}
-l a{
-    display:contents;
-    color: aliceblue;
-    text-align: left;
+    background-color:aliceblue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
-}
-l a:hover{
-    background-color: antiquewhite;
-}
+  }
+  
+  li a:hover:not(.active) {
+    background-color:burlywood;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
