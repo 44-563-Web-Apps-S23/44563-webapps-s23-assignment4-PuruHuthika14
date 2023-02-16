@@ -3,66 +3,68 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
 }
-.direction{
+
+direction{
     font-size:medium;
     font-family: 'Courier New', Courier, monospace;
     color: black;
     background-color:aliceblue;
 }
-.direction:hover{
+.name.direction:hover{
     color:bisque;
     background-color:burlywood;
 
 }
-.COMEDIAN{
+.name.COMEDIAN{
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:green;
     
 }
-.COMEDIAN:hover{
+.name.COMEDIAN:hover{
     text-shadow: 3px 3px 3px lightcoral ;
     border:0.5px dashed olive;
     color:blueviolet;
-    filter:blur(0.2px);
+    
 }
 
 
-.VILLAIN{
+.name.VILLAIN{
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
     color:brown;
 
     
 }
-.VILLAIN:hover{
+.name.VILLAIN:hover{
     text-shadow: 3px 3px 3px red ;
     border:0.5px dashed lightcoral;
     color:blue;
-    filter:blur(0.2px);
+
 }
-.OLDMAN{
+.name.OLDMAN{
     font-size: medium;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:blue;
     
 
 }
-.OLDMAN:hover{
+.name.OLDMAN:hover{
     text-shadow: 3px 3px 3px lightpink ;
     border:0.5px dashed lightcoral;
     color:blueviolet;
-    filter:blur(0.2px);
+    
 }
-.TRAGEDIAN:hover{
+
+.name.TRAGEDIAN:hover{
     text-shadow: 3px 3px 3px lightskyblue ;
     border:0.5px dashed olive;
     color:chocolate;
-    filter:blur(0.2px);
+    
 }
 
 
-.TRAGEDIAN{
+.name.TRAGEDIAN{
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
     color:coral;
@@ -99,8 +101,11 @@ th{
 tr:nth-child(even){
     background-color:antiquewhite;
 }
+.navbar-horizontal{
 
-ul {
+}
+
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
