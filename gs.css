@@ -101,9 +101,7 @@ th{
 tr:nth-child(even){
     background-color:antiquewhite;
 }
-.navbar-horizontal{
 
-}
 
 .navbar {
     list-style-type: none;
